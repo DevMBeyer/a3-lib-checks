@@ -267,8 +267,7 @@ systemChat if ( MB_IS_PATH( _path ) )
 ## References
 
 **Unit Tests Reports**  
-Each macro function was tested by unit tests from MB_fnc_simpleUnitTests. Each test result was documented with the help of MB_fnc_simpleUnitTestsReport and MB_fnc_simpleTextGenerator, which generate html or md syntax.  
-Reference: [Unit Test Reports](docs/report/unitTestsReportsIndex.html)
+Each macro function was tested by unit tests from MB_fnc_simpleUnitTests. Each test result was documented with the help of MB_fnc_simpleUnitTestsReport and MB_fnc_simpleTextGenerator, which generate html or md syntax.
 
 Unit test case arguments were changed, deleted, or expanded throughout the test. I have to correct individual test cases to show the differences in the individual test results.
 
