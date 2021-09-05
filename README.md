@@ -158,7 +158,7 @@ They are in thematically and technically ordered.
   copy the project files `\inc\MB\checks\` into the mission root folder `[MISSION_NAME].[WORLD_NAME]`  
   e.g. `myMission.VR`
 3. **Include a Library**  
-  include the library in the file with with a `#include` command at the very beginning of a file `#include <inc\MB\MB_lib_[LIBRARY].inc>`  
+  include the library in the file with with a `#include` command at the very beginning  
   e.g. in the `init.sqf ` script file with line `#include <inc\MB\MB_lib_checkTypes.inc>`  
   Now the script has the ability to access macro functions in the library which is include: `MB_IS_NIL`, `MB_IS_BOOL`, `MB_IS_SCALAR`, `MB_IS_STRING`, `MB_IS_ARRAY`, `MB_IS_CODE`, `MB_IS_PRIMITIV`, `MB_IS_ABSTRACT`.
 4. **Checking a value**  
