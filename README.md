@@ -279,6 +279,7 @@ Unit test case arguments were changed, deleted, or expanded throughout the test.
 **Apologizes**  
 * English is not my mother tongue. But my script comments can be understandable hopefully.
 * I am just a Developer with amateur experience on Arma coding.
+* I am not familiar with GitHub yet
 
 **Development**  
 * I used my tag `MB` nearly everywhere in the code. Therefor it shouldn't be interferences in the namespaces.
