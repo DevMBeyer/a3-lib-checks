@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Unit Tests Reports</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Documentation of unit tests of a macro function in Arma 3 game">
+		<meta name="keywords" content="report, arma 3, scripting, macro, unit tests, MB">
+		<meta name="author" content="MB">
+	</head>
+	<body>
+		<h1>Unit Tests Report</h1>
+		<h2>checkings</h2>
+		<figure>
+			<figcaption>Index</figcaption>
+			<ol>
+				<li>types</li>
+				<ol>
+					<li><a href="types\test_MB_IS_NIL.html">MB_IS_NIL</a></li>
+					<li><a href="types\test_MB_IS_BOOL.html">MB_IS_BOOL</a></li>
+					<li><a href="types\test_MB_IS_SCALAR.html">MB_IS_SCALAR</a></li>
+					<li><a href="types\test_MB_IS_STRING.html">MB_IS_STRING</a></li>
+					<li><a href="types\test_MB_IS_CODE.html">MB_IS_CODE</a></li>
+					<li><a href="types\test_MB_IS_ARRAY.html">MB_IS_ARRAY</a></li>
+					<li><a href="types\test_MB_IS_PRIMITIVE.html">MB_IS_PRIMITIVE</a></li>
+					<li><a href="types\test_MB_IS_ABSTRACT.html">MB_IS_ABSTRACT</a></li>
+				</ol>
+				<li>typesExtend</li>
+				<ol>
+					<li><a href="typesExtend\test_MB_IS_BINARY.html">MB_IS_BINARY</a></li>
+					<li><a href="typesExtend\test_MB_IS_UNIT_INTERVAL.html">MB_IS_UNIT_INTERVAL</a></li>
+					<li><a href="typesExtend\test_MB_IS_INTEGER.html">MB_IS_INTEGER</a></li>
+					<li><a href="typesExtend\test_MB_IS_INDEX.html">MB_IS_INDEX</a></li>
+					<li><a href="typesExtend\test_MB_IS_COUNTER.html">MB_IS_COUNTER</a></li>
+				</ol>
+				<li>typesComplex</li>
+				<ol>
+					<li><a href="typesComplex\test_MB_IS_UNIT_VECTOR.html">MB_IS_UNIT_VECTOR</a></li>
+					<li><a href="typesComplex\test_MB_IS_VECTOR.html">MB_IS_VECTOR</a></li>
+					<li><a href="typesComplex\test_MB_IS_2D_VECTOR.html">MB_IS_2D_VECTOR</a></li>
+					<li><a href="typesComplex\test_MB_IS_3D_VECTOR.html">MB_IS_3D_VECTOR</a></li>
+				</ol>
+				<li>typesSpecial</li>
+				<ol>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_SCALAR.html">MB_IS_RANGE_SCALAR</a></li>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_INTEGER.html">MB_IS_RANGE_INTEGER</a></li>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_INDEX.html">MB_IS_RANGE_INDEX</a></li>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_COUNTER.html">MB_IS_RANG_COUNTER</a></li>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_EXTEND_SCALAR.html">MB_IS_RANGE_EXTEND_SCALAR</a></li>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_EXTEND_INTEGER.html">MB_IS_RANGE_EXTEND_INTEGER</a></li>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_EXTEND_INDEX.html">MB_IS_RANGE_EXTEND_INDEX</a></li>
+					<li><a href="typesSpecial\test_MB_IS_RANGE_EXTEND_COUNTER.html">MB_IS_RANGE_EXTEND_COUNTER</a></li>
+				</ol>
+				<li>typesStructure</li>
+				<ol>
+					<li><a href="typesStructure\test_MB_IS_PAIR.html">MB_IS_PAIR</a></li>
+					<li><a href="typesStructure\test_MB_IS_STR_PAIR.html">MB_IS_STR_PAIR</a></li>
+					<li><a href="typesStructure\test_MB_IS_INDEX_PAIR.html">MB_IS_INDEX_PAIR</a></li>
+					<li><a href="typesStructure\test_MB_IS_STR_PAIR_TYPE.html">MB_IS_STR_PAIR_TYPE</a></li>
+					<li><a href="typesStructure\test_MB_IS_INDEX_PAIR_TYPE.html">MB_IS_INDEX_PAIR_TYPE</a></li>
+					<li><a href="typesStructure\test_MB_IS_HASHMAP.html">MB_IS_HASHMAP</a></li>
+					<li><a href="typesStructure\test_MB_IS_STR_HASHMAP.html">MB_IS_STR_HASHMAP</a></li>
+					<li><a href="typesStructure\test_MB_IS_INDEX_HASHMAP.html">MB_IS_INDEX_HASHMAP</a></li>
+					<li><a href="typesStructure\test_MB_IS_STR_HASHMAP_TYPE.html">MB_IS_STR_HASHMAP_TYPE</a></li>
+					<li><a href="typesStructure\test_MB_IS_INDEX_HASHMAP_TYPE.html">MB_IS_INDEX_HASHMAP_TYPE</a></li>
+					<li><a href="typesStructure\test_MB_IS_MULTI_HASHMAP.html">MB_IS_MULTI_HASHMAP</a></li>
+					<li><a href="typesStructure\test_MB_IS_STR_MULTI_HASHMAP.html">MB_IS_STR_MULTI_HASHMAP</a></li>
+					<li><a href="typesStructure\test_MB_IS_INDEX_MULTI_HASHMAP.html">MB_IS_INDEX_MULTI_HASHMAP</a></li>
+					<li><a href="typesStructure\test_MB_IS_STR_MULTI_HASHMAP_TYPE.html"><mark>MB_IS_STR_MULTI_HASHMAP_TYPE</mark></a></li>
+					<li><a href="typesStructure\test_MB_IS_INDEX_MULTI_HASHMAP_TYPE.html"><mark>MB_IS_INDEX_MULTI_HASHMAP_TYPE</mark></a></li>
+				</ol>
+				<li>arrayTypes</li>
+				<ol>
+					<li><a href="arrayTypes\test_MB_IS_NIL_ARRAY.html">MB_IS_NIL_ARRAY</a></li>
+					<li><a href="arrayTypes\test_MB_IS_BOOL_ARRAY.html">MB_IS_BOOL_ARRAY</a></li>
+					<li><a href="arrayTypes\test_MB_IS_SCALAR_ARRAY.html">MB_IS_SCALAR_ARRAY</a></li>
+					<li><a href="arrayTypes\test_MB_IS_STRING_ARRAY.html">MB_IS_STRING_ARRAY</a></li>
+					<li><a href="arrayTypes\test_MB_IS_CODE_ARRAY.html">MB_IS_CODE_ARRAY</a></li>
+					<li><a href="arrayTypes\test_MB_IS_MULTI_ARRAY.html">MB_IS_MULTI_ARRAY</a></li>
+					<li><a href="arrayTypes\test_MB_IS_PRIMITIVE_ARRAY.html">MB_IS_PRIMITIVE_ARRAY</a></li>
+					<li><a href="arrayTypes\test_MB_IS_ABSTRACT_ARRAY.html">MB_IS_ABSTRACT_ARRAY</a></li>
+				</ol>
+				<li>arrayTypesExtend</li>
+				<ol>
+					<li><a href="arrayTypesExtend\test_MB_IS_BINARY_ARRAY.html">MB_IS_BINARY_ARRAY</a></li>
+					<li><a href="arrayTypesExtend\test_MB_IS_UNIT_INTERVAL_ARRAY.html">MB_IS_UNIT_INTERVAL_ARRAY</a></li>
+					<li><a href="arrayTypesExtend\test_MB_IS_INTEGER_ARRAY.html">MB_IS_INTEGER_ARRAY</a></li>
+					<li><a href="arrayTypesExtend\test_MB_IS_INDEX_ARRAY.html">MB_IS_INDEX_ARRAY</a></li>
+					<li><a href="arrayTypesExtend\test_MB_IS_COUNTER_ARRAY.html">MB_IS_COUNTER_ARRAY</a></li>
+				</ol>
+				<li>arrayTypesComplex</li>
+				<ol>
+					<li><a href="arrayTypesComplex\test_MB_IS_UNIT_VECTOR_ARRAY.html">MB_IS_UNIT_VECTOR_ARRAY</a></li>
+					<li><a href="arrayTypesComplex\test_MB_IS_VECTOR_ARRAY.html">MB_IS_VECTOR_ARRAY</a></li>
+					<li><a href="arrayTypesComplex\test_MB_IS_2D_VECTOR_ARRAY.html">MB_IS_2D_VECTOR_ARRAY</a></li>
+					<li><a href="arrayTypesComplex\test_MB_IS_3D_VECTOR_ARRAY.html">MB_IS_3D_VECTOR_ARRAY</a></li>
+				</ol>
+				<li>arrayTypesSpecial</li>
+				<ol>
+					<li><a href="arrayTypesSpecial\test_MB_IS_SCALAR_RANGE_ARRAY.html">MB_IS_SCALAR_RANGE_ARRAY</a></li>
+					<li><a href="arrayTypesSpecial\test_MB_IS_INTEGER_RANGE_ARRAY.html">MB_IS_INTEGER_RANGE_ARRAY</a></li>
+					<li><a href="arrayTypesSpecial\test_MB_IS_INDEX_RANGE_ARRAY.html">MB_IS_INDEX_RANGE_ARRAY</a></li>
+					<li><a href="arrayTypesSpecial\test_MB_IS_COUNTER_RANGE_ARRAY.html">MB_IS_COUNTER_RANGE_ARRAY</a></li>
+				</ol>
+				<li>arrayTypesStructure</li>
+				<ol>
+					<li><a href="arrayTypesStructure\test_MB_IS_HASHMAP_ARRAY.html">MB_IS_HASHMAP_ARRAY</a></li>
+					<li><a href="arrayTypesStructure\test_MB_IS_MULTI_HASHMAP_ARRAY.html">MB_IS_MULTI_HASHMAP_ARRAY</a></li>
+				</ol>
+				<li>contents</li>
+				<ol>
+					<li><a href="contents\test_MB_IS_EMPTY.html">MB_IS_EMPTY</a></li>
+					<li><a href="contents\test_MB_IS_EMPTY_BOOL.html">MB_IS_EMPTY_BOOL</a></li>
+					<li><a href="contents\test_MB_IS_EMPTY_SCALAR.html">MB_IS_EMPTY_SCALAR</a></li>
+					<li><a href="contents\test_MB_IS_EMPTY_STRING.html">MB_IS_EMPTY_STRING</a></li>
+					<li><a href="contents\test_MB_IS_EMPTY_CODE.html">MB_IS_EMPTY_CODE</a></li>
+					<li><a href="contents\test_MB_IS_EMPTY_ARRAY.html">MB_IS_EMPTY_ARRAY</a></li>
+					<li><a href="contents\test_MB_IS_EMPTY_PRIMITIVE.html">MB_IS_EMPTY_PRIMITIVE</a></li>
+					<li><a href="contents\test_MB_IS_EMPTY_ABSTRACT.html">MB_IS_EMPTY_ABSTRACT</a></li>
+					<li><a href="contents\test_MB_HAS_CONTENT.html">MB_HAS_CONTENT</a></li>
+					<li><a href="contents\test_MB_HAS_BOOL_CONTENT.html">MB_HAS_BOOL_CONTENT</a></li>
+					<li><a href="contents\test_MB_HAS_SCALAR_CONTENT.html">MB_HAS_SCALAR_CONTENT</a></li>
+					<li><a href="contents\test_MB_HAS_STRING_CONTENT.html">MB_HAS_STRING_CONTENT</a></li>
+					<li><a href="contents\test_MB_HAS_CODE_CONTENT.html">MB_HAS_CODE_CONTENT</a></li>
+					<li><a href="contents\test_MB_HAS_ARRAY_CONTENT.html">MB_HAS_ARRAY_CONTENT</a></li>
+					<li><a href="contents\test_MB_HAS_PRIMITIVE_CONTENT.html">MB_HAS_PRIMITIVE_CONTENT</a></li>
+					<li><a href="contents\test_MB_HAS_ABSTRACT_CONTENT.html">MB_HAS_ABSTRACT_CONTENT</a></li>
+				</ol>
+				<li>contentsArray</li>
+				<ol>
+					<li><a href="contentsArray\test_MB_IS_ANYTHING_ARRAY_EMPTY.html">MB_IS_ANYTHING_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_IS_BOOL_ARRAY_EMPTY.html">MB_IS_BOOL_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_IS_SCALAR_ARRAY_EMPTY.html">MB_IS_SCALAR_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_IS_STRING_ARRAY_EMPTY.html">MB_IS_STRING_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_IS_CODE_ARRAY_EMPTY.html">MB_IS_CODE_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_IS_MULTI_ARRAY_EMPTY.html">MB_IS_MULTI_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_IS_PRIMITIVE_ARRAY_EMPTY.html">MB_IS_PRIMITIVE_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_IS_ABSTRACT_ARRAY_EMPTY.html">MB_IS_ABSTRACT_ARRAY_EMPTY</a></li>
+					<li><a href="contentsArray\test_MB_HAS_ANYTHING_ARRAY_CONTENT.html">MB_HAS_ANYTHING_ARRAY_CONTENT</a></li>
+					<li><a href="contentsArray\test_MB_HAS_BOOL_ARRAY_CONTENT.html">MB_HAS_BOOL_ARRAY_CONTENT</a></li>
+					<li><a href="contentsArray\test_MB_HAS_SCALAR_ARRAY_CONTENT.html">MB_HAS_SCALAR_ARRAY_CONTENT</a></li>
+					<li><a href="contentsArray\test_MB_HAS_STRING_ARRAY_CONTENT.html">MB_HAS_STRING_ARRAY_CONTENT</a></li>
+					<li><a href="contentsArray\test_MB_HAS_CODE_ARRAY_CONTENT.html">MB_HAS_CODE_ARRAY_CONTENT</a></li>
+					<li><a href="contentsArray\test_MB_HAS_MULTI_ARRAY_CONTENT.html">MB_HAS_MULTI_ARRAY_CONTENT</a></li>
+					<li><a href="contentsArray\test_MB_HAS_PRIMITIVE_ARRAY_CONTENT.html">MB_HAS_PRIMITIVE_ARRAY_CONTENT</a></li>
+					<li><a href="contentsArray\test_MB_HAS_ABSTRACT_ARRAY_CONTENT.html"><mark>MB_HAS_ABSTRACT_ARRAY_CONTENT</mark></a></li>
+				</ol>
+				<li>includes</li>
+				<ol>
+					<li><a href="includes\test_MB_IN_CHARSET.html">MB_IN_CHARSET</a></li>
+					<li><a href="includes\test_MB_IN_ARR_CHARSET.html">MB_IN_ARR_CHARSET</a></li>
+				</ol>
+				<li>includesSpecial</li>
+				<ol>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_SCALAR.html">MB_IN_RANGE_SCALAR</a></li>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_INTEGER.html">MB_IN_RANGE_INTEGER</a></li>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_INDEX.html">MB_IN_RANGE_INDEX</a></li>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_COUNTER.html">MB_IN_RANGE_COUNTER</a></li>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_EXTEND_SCALAR.html">MB_IN_RANGE_EXTEND_SCALAR</a></li>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_EXTEND_INTEGER.html">MB_IN_RANGE_EXTEND_INTEGER</a></li>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_EXTEND_INDEX.html">MB_IN_RANGE_EXTEND_INDEX</a></li>
+					<li><a href="includesSpecial\test_MB_IN_RANGE_EXTEND_COUNTER.html">MB_IN_RANGE_EXTEND_COUNTER</a></li>
+				</ol>
+				<li>iterations</li>
+				<ol>
+					<li><a href="iterations\test_MB_EACH_TYPE_EQUAL.html">MB_EACH_TYPE_EQUAL</a></li>
+					<li><a href="iterations\test_MB_EACH_TYPE_UNIQUE.html">MB_EACH_TYPE_UNIQUE</a></li>
+					<li><a href="iterations\test_MB_EACH_CHAR_UNIQUE.html">MB_EACH_CHAR_UNIQUE</a></li>
+					<li><a href="iterations\test_MB_EACH_CHAR_ELEM_UNIQUE.html">MB_EACH_CHAR_ELEM_UNIQUE</a></li>
+					<li><a href="iterations\test_MB_EACH_INDEX_UNIQUE.html">MB_EACH_INDEX_UNIQUE</a></li>
+				</ol>
+				<li>fs</li>
+				<ol>
+					<li><a href="fs\test_MB_IS_DIR.html">MB_IS_DIR</a></li>
+					<li><a href="fs\test_MB_IS_FILE.html">MB_IS_FILE</a></li>
+					<li><a href="fs\test_MB_IS_PATH.html">MB_IS_PATH</a></li>
+				</ol>
+			</ol>
+		</figure>
+	</body>
+</html>
