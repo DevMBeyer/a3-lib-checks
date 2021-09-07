@@ -283,3 +283,4 @@ Unit test case arguments were changed, deleted, or expanded throughout the test.
 **Development**  
 * I used my tag `MB` nearly everywhere in the code. Therefor it shouldn't be interferences in the namespaces.
 * I adopted *BI Code Comments Convention* in general with individualities.
+* I code in K&R style
